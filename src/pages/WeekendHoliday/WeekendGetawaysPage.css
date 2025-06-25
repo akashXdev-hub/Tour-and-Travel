@@ -1,0 +1,22 @@
+.small-search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.small-search-bar input {
+  width: 250px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.small-search-bar input:focus {
+  outline: none;
+  border-color: #1d3b84;
+  box-shadow: 0 0 6px rgba(29, 59, 132, 0.3);
+}

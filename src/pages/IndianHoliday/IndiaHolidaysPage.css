@@ -1,0 +1,107 @@
+.india-holidays-page {
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #1d3b84;
+  margin-bottom: 40px;
+}
+
+.states-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: #1d3b84;
+  text-align: center;
+}
+
+.states-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.state-item {
+  background-color: #f3f4f6;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #374151;
+  transition: background 0.3s;
+}
+
+.state-item:hover {
+  background-color: #dbeafe;
+}
+
+.packages-section {
+  margin-top: 40px;
+}
+
+.package-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.enquiry-cta {
+  text-align: center;
+  margin-top: 60px;
+  background: #e0f2fe;
+  padding: 40px 20px;
+  border-radius: 16px;
+}
+
+.enquiry-cta h3 {
+  font-size: 1.8rem;
+  color: #1d3b84;
+  margin-bottom: 10px;
+}
+
+.enquiry-cta p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.enquiry-button {
+  padding: 12px 24px;
+  background-color: #1d4ed8;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.enquiry-button:hover {
+  background-color: #1e40af;
+}
+.small-search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.small-search-bar input {
+  width: 250px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.small-search-bar input:focus {
+  outline: none;
+  border-color: #1d3b84;
+  box-shadow: 0 0 6px rgba(29, 59, 132, 0.3);
+}
